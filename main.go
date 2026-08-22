@@ -46,7 +46,7 @@ var (
 	headerStyle      = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("229")).Background(lipgloss.Color("62")).Padding(0, 1)
 	rowStyle         = lipgloss.NewStyle().Padding(0, 1)
 	selectedRowStyle = lipgloss.NewStyle().Padding(0, 1).Background(lipgloss.Color("62")).Foreground(lipgloss.Color("229"))
-	userTagStyle     = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("86")).Underline(true)
+	userTagStyle     = lipgloss.NewStyle().Bold(true).Underline(true)
 	infoStyle        = lipgloss.NewStyle().Foreground(lipgloss.Color("241"))
 	modalStyle       = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(lipgloss.Color("62")).Padding(1)
 
